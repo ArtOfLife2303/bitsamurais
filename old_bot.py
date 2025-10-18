@@ -74,7 +74,7 @@ LANGUAGES = {
     "ru": {
         "start": (
             "👋 Привет! Добро пожаловать в Music Jacker! 🎶\n\n"
-            "Я помогу скачать аудио из YouTube и SoundCloud в формате MP3 (320 kbps).\n\n"
+            "Я помогу скачать аудио из YouTube и SoundCloud в формате MP3 (128 kbps).\n\n"
             "🔗 Просто отправьте ссылку на видео или трек — и получите музыку!\n\n"
             f"📢 Для работы подпишитесь на канал {REQUIRED_CHANNELS[0]}.\n\n"
             "🔍 Хотите найти трек по названию? Используйте команду /search и выберите нужную песню!\n\n"
@@ -100,15 +100,15 @@ LANGUAGES = {
         "already_cancelled_or_done": "Загрузка уже отменена или завершена.",
         "url_error_generic": "Не удалось обработать URL. Убедитесь, что это корректная ссылка на YouTube или SoundCloud.",
         "search_prompt": (
-            "Введите название трека или исполнителя. После чего, нажмите на музыку, она загрузится в формате MP3 (320 kbps).\n"
+            "Введите название трека или исполнителя. После чего, нажмите на музыку, она загрузится в формате MP3 (128 kbps).\n"
             "Введите /cancel для отмены поиска.\n"
             "Введите /search для поиска музыки по названию (YouTube)."
         ),
         "searching": "Ищу музыку...",
         "unsupported_url_in_search": "Ссылка не поддерживается. Пожалуйста, проверьте другую ссылку или попробуйте другой запрос. (Альтернативно, если у вас не получилось, вы можете загрузить трек от другого исполнителя или Remix)",
         "no_results": "Ничего не найдено. Попробуйте другой запрос.",
-    "choose_track": "Выберите трек для скачивания в MP3 (320 kbps):",
-    "downloading_selected_track": "Скачиваю выбранный трек в MP3 (320 kbps)...",
+    "choose_track": "Выберите трек для скачивания в MP3 (128 kbps):",
+    "downloading_selected_track": "Скачиваю выбранный трек в MP3 (128 kbps)...",
         "copyright_pre": "⚠️ Внимание! Загружаемый вами материал может быть защищён авторским правом. Используйте только для личных целей. Если вы являетесь правообладателем и считаете, что ваши права нарушены, напишите на copyrightytdlpbot@gmail.com для удаления контента.",
         "copyright_post": "⚠️ Данный материал может быть защищён авторским правом. Используйте только для личных целей. Если вы правообладатель и считаете, что ваши права нарушены, напишите на copyrightytdlpbot@gmail.com.",
         "copyright_command": "⚠️ Внимание! Все материалы, скачиваемые через этого бота, могут быть защищены авторским правом. Используйте только для личных целей. Если вы правообладатель и считаете, что ваши права нарушены, напишите на copyrightytdlpbot@gmail.com, и мы удалим соответствующий контент."
@@ -116,7 +116,7 @@ LANGUAGES = {
     "en": {
         "start": (
             "👋 Hello! Welcome to Music Jacker! 🎶\n\n"
-            "I can help you download audio from YouTube and SoundCloud in MP3 format (320 kbps).\n\n"
+            "I can help you download audio from YouTube and SoundCloud in MP3 format (128 kbps).\n\n"
             "🔗 Just send a link to a video or track — and get your music!\n\n"
             f"📢 To use the bot, please subscribe to the channel {REQUIRED_CHANNELS[0]}.\n\n"
             "🔍 Want to search for a song by name? Use /search and pick your favorite!\n\n"
@@ -142,15 +142,15 @@ LANGUAGES = {
         "already_cancelled_or_done": "Download already cancelled or completed.",
         "url_error_generic": "Failed to process URL. Make sure it's a valid YouTube or SoundCloud link.",
         "search_prompt": (
-            "Enter the track name or artist. Then click on the music, it will download in MP3 format (320 kbps).\n"
+            "Enter the track name or artist. Then click on the music, it will download in MP3 format (128 kbps).\n"
             "Enter /cancel to cancel the search.\n"
             "Enter /search to search for music by name (YouTube)."
         ),
         "searching": "Searching for music...",
         "unsupported_url_in_search": "The link is not supported. Please check the link or try another query. (Alternatively, if it didn't work, you can download a track from another artist or Remix)",
         "no_results": "Nothing found. Try another query.",
-    "choose_track": "Select a track to download in MP3 (320 kbps):",
-    "downloading_selected_track": "Downloading the selected track in MP3 (320 kbps)...",
+    "choose_track": "Select a track to download in MP3 (128 kbps):",
+    "downloading_selected_track": "Downloading the selected track in MP3 (128 kbps)...",
         "copyright_pre": "⚠️ Warning! The material you are about to download may be protected by copyright. Use for personal purposes only. If you are a copyright holder and believe your rights are being violated, please contact copyrightytdlpbot@gmail.com for removal.",
         "copyright_post": "⚠️ This material may be protected by copyright. Use for personal purposes only. If you are a copyright holder and believe your rights are being violated, contact copyrightytdlpbot@gmail.com.",
         "copyright_command": "⚠️ Warning! All materials downloaded via this bot may be protected by copyright. Use for personal purposes only. If you are a copyright holder and believe your rights are being violated, contact copyrightytdlpbot@gmail.com and we will remove the content."
@@ -158,7 +158,7 @@ LANGUAGES = {
     "es": {
         "start": (
             "👋 ¡Hola! ¡Bienvenido a Music Jacker! 🎶\n\n"
-            "Te ayudo a descargar audio de YouTube y SoundCloud en formato MP3 (320 kbps).\n\n"
+            "Te ayudo a descargar audio de YouTube y SoundCloud en formato MP3 (128 kbps).\n\n"
             "🔗 Solo envía un enlace de video o pista — ¡y recibe tu música!\n\n"
             f"📢 Para usar el bot, suscríbete al canal {REQUIRED_CHANNELS[0]}.\n\n"
             "🔍 ¿Quieres buscar una canción por nombre? Usa /search y elige tu favorita.\n\n"
@@ -184,15 +184,15 @@ LANGUAGES = {
         "already_cancelled_or_done": "La descarga ya fue cancelada o completada.",
         "url_error_generic": "No se pudo procesar la URL. Asegúrate de que sea un enlace válido de YouTube o SoundCloud.",
         "search_prompt": (
-            "Ingrese el nombre de la pista o artista. Luego haga clic en la música, se descargará en formato MP3 (320 kbps).\n"
+            "Ingrese el nombre de la pista o artista. Luego haga clic en la música, se descargará en formato MP3 (128 kbps).\n"
             "Ingrese /cancel para cancelar la búsqueda.\n"
             "Ingrese /search para buscar música por nombre (YouTube)."
         ),
         "searching": "Buscando música...",
         "unsupported_url_in_search": "El enlace no es compatible. Por favor, compruebe el enlace o pruebe con otra consulta. (Alternativamente, si no funcionó, puede descargar una pista de otro artista o un Remix)",
         "no_results": "No se encontraron resultados. Intente con otra consulta.",
-    "choose_track": "Seleccione una pista para descargar en MP3 (320 kbps):",
-    "downloading_selected_track": "Descargando la pista seleccionada en MP3 (320 kbps)...",
+    "choose_track": "Seleccione una pista para descargar en MP3 (128 kbps):",
+    "downloading_selected_track": "Descargando la pista seleccionada en MP3 (128 kbps)...",
         "copyright_pre": "⚠️ ¡Atención! El material que está a punto de descargar puede estar protegido por derechos de autor. Úselo solo para fines personales. Si es titular de derechos y cree que se están violando sus derechos, escriba a copyrightytdlpbot@gmail.com para eliminar el contenido.",
         "copyright_post": "⚠️ Este material puede estar protegido por derechos de autor. Úselo solo para fines personales. Si es titular de derechos y cree que se están violando sus derechos, escriba a copyrightytdlpbot@gmail.com.",
         "copyright_command": "⚠️ ¡Atención! Todo el material descargado a través de este bot puede estar protegido por derechos de autor. Úselo solo para fines personales. Si es titular de derechos y cree que se están violando sus derechos, escriba a copyrightytdlpbot@gmail.com y eliminaremos el contenido."
@@ -200,7 +200,7 @@ LANGUAGES = {
     "tr": {
         "start": (
             "👋 Merhaba! Music Jacker'a hoş geldin! 🎶\n\n"
-            "YouTube ve SoundCloud'dan MP3 (320 kbps) formatında ses indirmen için buradayım.\n\n"
+            "YouTube ve SoundCloud'dan MP3 (128 kbps) formatında ses indirmen için buradayım.\n\n"
             "🔗 Sadece bir video veya parça bağlantısı gönder — müziğin hazır!\n\n"
             f"📢 Botu kullanmak için {REQUIRED_CHANNELS[0]} kanalına abone olmalısın.\n\n"
             "🔍 Şarkı ismiyle arama yapmak ister misin? /search yaz ve favorini seç!\n\n"
@@ -226,15 +226,15 @@ LANGUAGES = {
         "already_cancelled_or_done": "İndirme zaten iptal edildi veya tamamlandı.",
         "url_error_generic": "URL işlenemedi. Geçerli bir YouTube veya SoundCloud bağlantısı olduğundan emin olun.",
         "search_prompt": (
-            "Parça adı veya sanatçı adı girin. Ardından müziğe tıklayın, MP3 (320 kbps) formatında indirilecektir.\n"
+            "Parça adı veya sanatçı adı girin. Ardından müziğe tıklayın, MP3 (128 kbps) formatında indirilecektir.\n"
             "Aramayı iptal etmek için /cancel yazın.\n"
             "Müzik adıyla arama yapmak için /search yazın (YouTube)."
         ),
         "searching": "Musiqi axtarılır...",
         "unsupported_url_in_search": "Bağlantı desteklenmiyor. Lütfen bağlantıyı kontrol edin veya başka bir sorgu deneyin. (Alternatif olarak, işe yaramadıysa, başka bir sanatçıdan veya Remix bir parça indirebilirsiniz)",
         "no_results": "Hiçbir sonuç bulunamadı. Başka bir sorgu deneyin.",
-    "choose_track": "MP3 (320 kbps) olarak indirmek için bir parça seçin:",
-    "downloading_selected_track": "Seçilen parça MP3 (320 kbps) olarak indiriliyor...",
+    "choose_track": "MP3 (128 kbps) olarak indirmek için bir parça seçin:",
+    "downloading_selected_track": "Seçilen parça MP3 (128 kbps) olarak indiriliyor...",
         "copyright_pre": "⚠️ Dikkat! İndirmek üzere olduğunuz materyal telif hakkı ile korunabilir. Yalnızca kişisel kullanım için kullanın. Eğer telif hakkı sahibiyseniz ve haklarınızın ihlal edildiğini düşünüyorsanız, lütfen copyrightytdlpbot@gmail.com adresine yazın.",
         "copyright_post": "⚠️ Bu materyal telif hakkı ile korunabilir. Yalnızca kişisel kullanım için kullanın. Eğer telif hakkı sahibiyseniz ve haklarınızın ihlal edildiğini düşünüyorsanız, copyrightytdlpbot@gmail.com adresine yazın.",
         "copyright_command": "⚠️ Dikkat! Bu bot aracılığıyla indirilen tüm materyaller telif hakkı ile korunabilir. Yalnızca kişisel kullanım için kullanın. Eğer telif hakkı sahibiyseniz ve haklarınızın ihlal edildiğini düşünüyorsanız, lütfen copyrightytdlpbot@gmail.com adresine yazın, müvafiq məzmunu siləcəyik."
@@ -242,7 +242,7 @@ LANGUAGES = {
     "ar": {
         "start": (
             "👋 مرحبًا بك في Music Jacker! 🎶\n\n"
-            "سأساعدك في تنزيل الصوت من YouTube و SoundCloud بصيغة MP3 (320 kbps).\n\n"
+            "سأساعدك في تنزيل الصوت من YouTube و SoundCloud بصيغة MP3 (128 kbps).\n\n"
             "🔗 فقط أرسل رابط فيديو أو مقطع — وستحصل على موسيقاك!\n\n"
             f"📢 لاستخدام البوت، يرجى الاشتراك في القناة {REQUIRED_CHANNELS[0]}.\n\n"
             "🔍 هل تريد البحث عن أغنية بالاسم؟ استخدم /search واختر المفضلة لديك!\n\n"
@@ -268,15 +268,15 @@ LANGUAGES = {
         "already_cancelled_or_done": "تم إلغاء التنزيل أو إكماله بالفعل.",
         "url_error_generic": "فشل في معالجة الرابط. تأكد من أنه رابط YouTube أو SoundCloud صالح.",
         "search_prompt": (
-            "أدخل اسم المقطع الصوتي أو الفنان. ثم انقر على الموسيقى، سيتم تنزيلها بصيغة MP3 (320 kbps).\n"
+            "أدخل اسم المقطع الصوتي أو الفنان. ثم انقر على الموسيقى، سيتم تنزيلها بصيغة MP3 (128 kbps).\n"
             "أدخل /cancel لإلغاء البحث.\n"
             "أدخل /search للبحث عن الموسيقى بالاسم (يوتيوب)."
         ),
         "searching": "جاري البحث عن الموسيقى...",
         "unsupported_url_in_search": "الرابط غير مدعوم. يرجى التحقق من الرابط أو تجربة استعلام آخر. (بدلاً من ذلك، إذا لم ينجح الأمر, يمكنك تنزيل مقطع صوتي من فنان آخر أو ريمكس)",
         "no_results": "لم يتم العثور على شيء. حاول استعلامًا آخر.",
-    "choose_track": "حدد مسارًا لتنزيله بصيغة MP3 (320 kbps):",
-    "downloading_selected_track": "جاري تنزيل المسار المحدد بصيغة MP3 (320 kbps)...",
+    "choose_track": "حدد مسارًا لتنزيله بصيغة MP3 (128 kbps):",
+    "downloading_selected_track": "جاري تنزيل المسار المحدد بصيغة MP3 (128 kbps)...",
         "copyright_pre": "⚠️ تحذير! قد يكون المحتوى الذي توشك على تنزيله محميًا بحقوق النشر. استخدمه للأغراض الشخصية فقط. إذا كنت صاحب حقوق وتعتقد أن حقوقك منتهكة, يرجى التواصل عبر copyrightytdlpbot@gmail.com لحذف المحتوى.",
         "copyright_post": "⚠️ قد يكون هذا المحتوى محميًا بحقوق النشر. استخدمه للأغراض الشخصية فقط. إذا كنت صاحب حقوق وتعتقد أن حقوقك منتهكة, يرجى التواصل عبر copyrightytdlpbot@gmail.com.",
         "copyright_command": "⚠️ تحذير! جميع المواد التي يتم تنزيلها عبر هذا البوت قد تكون محمية بحقوق النشر. استخدمها للأغراض الشخصية فقط. إذا كنت صاحب حقوق وتعتقد أن حقوقك منتهكة, يرجى التواصل عبر copyrightytdlpbot@gmail.com وسنقوم بحذف المحتوى."
@@ -284,7 +284,7 @@ LANGUAGES = {
     "az": {
         "start": (
             "👋 Salam! Music Jacker'a xoş gəlmisiniz! 🎶\n\n"
-            "YouTube və SoundCloud-dan MP3 (320 kbps) formatında səs yükləmək üçün buradayam.\n\n"
+            "YouTube və SoundCloud-dan MP3 (128 kbps) formatında səs yükləmək üçün buradayam.\n\n"
             "🔗 Sadəcə video və ya trek linki göndərin — musiqiniz hazırdır!\n\n"
             f"📢 Botdan istifadə üçün {REQUIRED_CHANNELS[0]} kanalına abunə olun.\n\n"
             "🔍 Mahnını adla axtarmaq istəyirsiniz? /search yazın və sevdiyinizi seçin!\n\n"
@@ -310,15 +310,15 @@ LANGUAGES = {
         "already_cancelled_or_done": "Yükləmə artıq ləğv edilib və ya tamamlanıb.",
         "url_error_generic": "URL emal edilə bilmədi. Etibarlı bir YouTube və ya SoundCloud linki olduğundan əmin olun.",
         "search_prompt": (
-            "Trek adı və ya ifaçı adı daxil edin. Sonra musiqiyə tıklayın, MP3 (320 kbps) formatında yüklənəcək.\n"
+            "Trek adı və ya ifaçı adı daxil edin. Sonra musiqiyə tıklayın, MP3 (128 kbps) formatında yüklənəcək.\n"
             "/cancel daxil edərək axtarışı ləğv edin.\n"
             "/search daxil edərək adla musiqi axtarın (YouTube)."
         ),
         "searching": "Musiqi axtarılır...",
         "unsupported_url_in_search": "Link dəstəklənmir. Zəhmət olmasa, linki yoxlayın və ya başqa bir sorğu sınayın. (Alternativ olaraq, əgər işləmədisə, başqa bir ifaçıdan və ya Remix bir trek yükləyə bilərsiniz)",
         "no_results": "Heç nə tapılmadı. Başqa bir sorğu sınayın.",
-    "choose_track": "MP3 (320 kbps) olaraq yükləmək üçün bir trek seçin:",
-    "downloading_selected_track": "Seçilən trek MP3 (320 kbps) olaraq yüklənir...",
+    "choose_track": "MP3 (128 kbps) olaraq yükləmək üçün bir trek seçin:",
+    "downloading_selected_track": "Seçilən trek MP3 (128 kbps) olaraq yüklənir...",
         "copyright_pre": "⚠️ Diqqət! Yüklədiyiniz material müəllif hüquqları ilə qoruna bilər. Yalnız şəxsi istifadə üçün istifadə edin. Əgər siz hüquq sahibiysanız və hüquqlarınızın pozulduğunu düşünürsənsə, zəhmət olmasa copyrightytdlpbot@gmail.com ünvanına yazın.",
         "copyright_post": "⚠️ Bu material müəllif hüquqları ilə qoruna bilər. Yalnız şəxsi istifadə üçün istifadə edin. Əgər siz hüquq sahibiysanız və hüquqlarınızın pozulduğunu düşünürsə, copyrightytdlpbot@gmail.com ünvanına yazın.",
         "copyright_command": "⚠️ Diqqət! Bu bot vasitəsilə yüklənən bütün materiallar müəllif hüquqları ilə qoruna bilər. Yalnız şəxsi istifadə üçün istifadə edin. Əgər siz hüquq sahibiysanız və hüquqlarınızın pozulduğunu düşünürsə, copyrightytdlpbot@gmail.com ünvanına yazın, müvafiq məzmunu siləcəyik."
@@ -326,7 +326,7 @@ LANGUAGES = {
     "de": {
         "start": (
             "👋 Hallo! Willkommen bei Music Jacker! 🎶\n\n"
-            "Ich helfe dir, Audiodateien von YouTube und SoundCloud im MP3-Format (320 kbps) herunterzuladen.\n\n"
+            "Ich helfe dir, Audiodateien von YouTube und SoundCloud im MP3-Format (128 kbps) herunterzuladen.\n\n"
             "🔗 Sende einfach einen Link zu einem Video oder Track – und erhalte deine Musik!\n\n"
             f"📢 Um den Bot zu nutzen, abonniere bitte den Kanal {REQUIRED_CHANNELS[0]}.\n\n"
             "🔍 Möchtest du einen Song nach Namen suchen? Nutze /search und wähle deinen Favoriten!\n\n"
@@ -352,15 +352,15 @@ LANGUAGES = {
         "already_cancelled_or_done": "Download wurde bereits abgebrochen oder abgeschlossen.",
         "url_error_generic": "URL konnte nicht verarbeitet werden. Stelle sicher, dass es sich um einen gültigen YouTube- oder SoundCloud-Link handelt.",
         "search_prompt": (
-            "Gib den Namen des Tracks oder des Künstlers ein. Klicke dann auf die Musik, sie wird im MP3-Format (320 kbps) heruntergeladen.\n"
+            "Gib den Namen des Tracks oder des Künstlers ein. Klicke dann auf die Musik, sie wird im MP3-Format (128 kbps) heruntergeladen.\n"
             "Gib /cancel ein, um die Suche abzubrechen.\n"
             "Gib /search ein, um Musik nach Namen zu suchen (YouTube)."
         ),
         "searching": "Suche nach Musik...",
         "unsupported_url_in_search": "Der Link wird nicht unterstützt. Bitte überprüfe den Link oder versuche eine andere Anfrage.",
         "no_results": "Keine Ergebnisse gefunden. Versuche eine andere Anfrage.",
-    "choose_track": "Wähle einen Track zum Herunterladen im MP3-Format (320 kbps):",
-    "downloading_selected_track": "Lade den ausgewählten Track im MP3-Format (320 kbps) herunter...",
+    "choose_track": "Wähle einen Track zum Herunterladen im MP3-Format (128 kbps):",
+    "downloading_selected_track": "Lade den ausgewählten Track im MP3-Format (128 kbps) herunter...",
         "copyright_pre": "⚠️ Achtung! Das Material, das du herunterladen möchtest, könnte urheberrechtlich geschützt sein. Verwende es nur für persönliche Zwecke.",
         "copyright_post": "⚠️ Dieses Material könnte urheberrechtlich geschützt sein. Verwende es nur für persönliche Zwecke.",
         "copyright_command": "⚠️ Achtung! Alle über diesen Bot heruntergeladenen Materialien könnten urheberrechtlich geschützt sein. Verwende sie nur für persönliche Zwecke."
@@ -368,7 +368,7 @@ LANGUAGES = {
     "ja": {
         "start": (
             "👋 こんにちは！Music Jackerへようこそ！ 🎶\n\n"
-            "YouTubeやSoundCloudからMP3形式（320 kbps）で音声をダウンロードできます。\n\n"
+            "YouTubeやSoundCloudからMP3形式（128 kbps）で音声をダウンロードできます。\n\n"
             "🔗 動画やトラックのリンクを送るだけで、音楽を取得できます！\n\n"
             f"📢 ボットを利用するには、チャンネル {REQUIRED_CHANNELS[0]} を購読してください。\n\n"
             "🔍 曲名で検索したいですか？ /search を使って曲を選んでください！\n\n"
@@ -394,15 +394,15 @@ LANGUAGES = {
         "already_cancelled_or_done": "ダウンロードはすでにキャンセルされているか完了しています。",
         "url_error_generic": "URLを処理できませんでした。正しいYouTubeまたはSoundCloudのリンクであることを確認してください。",
         "search_prompt": (
-            "トラック名またはアーティスト名を入力してください。曲をクリックすると、MP3（320 kbps）形式でダウンロードされます。\n"
+            "トラック名またはアーティスト名を入力してください。曲をクリックすると、MP3（128 kbps）形式でダウンロードされます。\n"
             "検索をキャンセルするには /cancel を入力してください。\n"
             "曲名で検索するには /search を入力してください（YouTube）。"
         ),
         "searching": "音楽を検索しています...",
         "unsupported_url_in_search": "そのリンクはサポートされていません。リンクを確認するか別のクエリを試してください。",
         "no_results": "結果が見つかりません。別のクエリを試してください。",
-        "choose_track": "MP3（320 kbps）でダウンロードするトラックを選択してください:",
-        "downloading_selected_track": "選択したトラックをMP3（320 kbps）でダウンロードしています...",
+        "choose_track": "MP3（128 kbps）でダウンロードするトラックを選択してください:",
+        "downloading_selected_track": "選択したトラックをMP3（128 kbps）でダウンロードしています...",
         "copyright_pre": "⚠️ 注意！ダウンロードしようとしている素材は著作権で保護されている可能性があります。個人使用のみでご利用ください。権利者であり、権利侵害だと考える場合は copyrightytdlpbot@gmail.com までご連絡ください。",
         "copyright_post": "⚠️ この素材は著作権で保護されている可能性があります。個人使用のみでご利用ください。権利者である場合は copyrightytdlpbot@gmail.com までご連絡ください。",
         "copyright_command": "⚠️ 注意！このボットでダウンロードされるすべての素材は著作権で保護されている可能性があります。個人使用のみでご利用ください。権利者である場合は copyrightytdlpbot@gmail.com までご連絡ください。"
@@ -410,7 +410,7 @@ LANGUAGES = {
     "ko": {
         "start": (
             "👋 안녕하세요! Music Jacker에 오신 것을 환영합니다! 🎶\n\n"
-            "YouTube와 SoundCloud에서 MP3 형식(320 kbps)으로 오디오를 다운로드하도록 도와드립니다.\n\n"
+            "YouTube와 SoundCloud에서 MP3 형식(128 kbps)으로 오디오를 다운로드하도록 도와드립니다.\n\n"
             "🔗 동영상 또는 트랙 링크를 보내면 음악을 받아볼 수 있습니다!\n\n"
             f"📢 봇을 사용하려면 채널 {REQUIRED_CHANNELS[0]} 를 구독해주세요.\n\n"
             "🔍 노래 제목으로 검색하고 싶으신가요? /search 를 사용해 좋아하는 곡을 선택하세요!\n\n"
@@ -436,15 +436,15 @@ LANGUAGES = {
         "already_cancelled_or_done": "다운로드가 이미 취소되었거나 완료되었습니다.",
         "url_error_generic": "URL을 처리할 수 없습니다. 유효한 YouTube 또는 SoundCloud 링크인지 확인하세요.",
         "search_prompt": (
-            "트랙명 또는 아티스트를 입력하세요. 음악을 클릭하면 MP3(320 kbps) 형식으로 다운로드됩니다.\n"
+            "트랙명 또는 아티스트를 입력하세요. 음악을 클릭하면 MP3(128 kbps) 형식으로 다운로드됩니다.\n"
             "검색을 취소하려면 /cancel 을 입력하세요.\n"
             "곡명으로 검색하려면 /search 를 입력하세요 (YouTube)."
         ),
         "searching": "음악을 검색 중입니다...",
         "unsupported_url_in_search": "링크가 지원되지 않습니다. 링크를 확인하거나 다른 쿼리를 시도하세요.",
         "no_results": "결과가 없습니다. 다른 쿼리를 시도하세요.",
-        "choose_track": "MP3(320 kbps)로 다운로드할 트랙을 선택하세요:",
-        "downloading_selected_track": "선택한 트랙을 MP3(320 kbps)로 다운로드 중입니다...",
+        "choose_track": "MP3(128 kbps)로 다운로드할 트랙을 선택하세요:",
+        "downloading_selected_track": "선택한 트랙을 MP3(128 kbps)로 다운로드 중입니다...",
         "copyright_pre": "⚠️ 경고! 다운로드하려는 자료는 저작권으로 보호될 수 있습니다. 개인적인 용도로만 사용하세요. 권리자이고 권리 침해라고 생각되면 copyrightytdlpbot@gmail.com 으로 연락해주세요.",
         "copyright_post": "⚠️ 이 자료는 저작권으로 보호될 수 있습니다. 개인적인 용도로만 사용하세요. 권리자라면 copyrightytdlpbot@gmail.com 으로 연락해주세요.",
         "copyright_command": "⚠️ 경고! 이 봇을 통해 다운로드되는 모든 자료는 저작권으로 보호될 수 있습니다. 개인적인 용도로만 사용하세요. 권리자라면 copyrightytdlpbot@gmail.com 으로 연락주시면 콘텐츠를 삭제하겠습니다."
@@ -452,7 +452,7 @@ LANGUAGES = {
     "zh": {
         "start": (
             "👋 你好！欢迎使用 Music Jacker！ 🎶\n\n"
-            "我可以帮你从 YouTube 和 SoundCloud 下载 MP3 格式（320 kbps）的音频。\n\n"
+            "我可以帮你从 YouTube 和 SoundCloud 下载 MP3 格式（128 kbps）的音频。\n\n"
             "🔗 只需发送视频或曲目的链接——即可获得音乐！\n\n"
             f"📢 要使用此机器人，请订阅频道 {REQUIRED_CHANNELS[0]} 。\n\n"
             "🔍 想按名称搜索歌曲吗？使用 /search 并选择你喜欢的曲目！\n\n"
@@ -478,15 +478,15 @@ LANGUAGES = {
         "already_cancelled_or_done": "下载已被取消或已完成。",
         "url_error_generic": "无法处理 URL。请确保它是有效的 YouTube 或 SoundCloud 链接。",
         "search_prompt": (
-            "输入曲目名称或艺术家。然后点击音乐，系统将以 MP3（320 kbps）格式下载。\n"
+            "输入曲目名称或艺术家。然后点击音乐，系统将以 MP3（128 kbps）格式下载。\n"
             "输入 /cancel 以取消搜索。\n"
             "输入 /search 在 YouTube 上按名称搜索音乐。"
         ),
         "searching": "正在搜索音乐...",
         "unsupported_url_in_search": "该链接不受支持。请检查链接或尝试其他查询。",
         "no_results": "未找到任何结果。请尝试其他查询。",
-        "choose_track": "选择要以 MP3（320 kbps）下载的曲目：",
-        "downloading_selected_track": "正在以 MP3（320 kbps）下载所选曲目...",
+        "choose_track": "选择要以 MP3（128 kbps）下载的曲目：",
+        "downloading_selected_track": "正在以 MP3（128 kbps）下载所选曲目...",
         "copyright_pre": "⚠️ 注意！您即将下载的资料可能受版权保护。仅供个人使用。如果您是权利人并认为您的权利受到侵害，请联系 copyrightytdlpbot@gmail.com。",
         "copyright_post": "⚠️ 该资料可能受版权保护。仅供个人使用。如果您是权利人并认为您的权利受到侵害，请联系 copyrightytdlpbot@gmail.com。",
         "copyright_command": "⚠️ 注意！通过此机器人下载的所有资料可能受版权保护。仅供个人使用。如果您是权利人并认为您的权利受到侵害，请联系 copyrightytdlpbot@gmail.com，我们将删除相关内容。"
@@ -494,7 +494,7 @@ LANGUAGES = {
     "fr": {
         "start": (
             "👋 Bonjour ! Bienvenue sur Music Jacker ! 🎶\n\n"
-            "Je peux t'aider à télécharger de l'audio depuis YouTube et SoundCloud au format MP3 (320 kbps).\n\n"
+            "Je peux t'aider à télécharger de l'audio depuis YouTube et SoundCloud au format MP3 (128 kbps).\n\n"
             "🔗 Envoie simplement un lien vers une vidéo ou une piste — et récupère ta musique !\n\n"
             f"📢 Pour utiliser le bot, abonne-toi à la chaîne {REQUIRED_CHANNELS[0]}.\n\n"
             "🔍 Tu veux chercher une chanson par nom ? Utilise /search et choisis ton préféré !\n\n"
@@ -520,15 +520,15 @@ LANGUAGES = {
         "already_cancelled_or_done": "Le téléchargement a déjà été annulé ou terminé.",
         "url_error_generic": "Impossible de traiter l'URL. Assure-toi qu'il s'agit d'un lien valide YouTube ou SoundCloud.",
         "search_prompt": (
-            "Saisis le nom de la piste ou de l'artiste. Clique ensuite sur la musique, elle sera téléchargée au format MP3 (320 kbps).\n"
+            "Saisis le nom de la piste ou de l'artiste. Clique ensuite sur la musique, elle sera téléchargée au format MP3 (128 kbps).\n"
             "Saisis /cancel pour annuler la recherche.\n"
             "Saisis /search pour rechercher de la musique par nom (YouTube)."
         ),
         "searching": "Recherche de musique...",
         "unsupported_url_in_search": "Le lien n'est pas pris en charge. Vérifie le lien ou essaie une autre requête.",
         "no_results": "Aucun résultat trouvé. Essaie une autre requête.",
-        "choose_track": "Sélectionne une piste à télécharger au format MP3 (320 kbps) :",
-        "downloading_selected_track": "Téléchargement de la piste sélectionnée au format MP3 (320 kbps)...",
+        "choose_track": "Sélectionne une piste à télécharger au format MP3 (128 kbps) :",
+        "downloading_selected_track": "Téléchargement de la piste sélectionnée au format MP3 (128 kbps)...",
         "copyright_pre": "⚠️ Attention ! Le contenu que tu es sur le point de télécharger peut être protégé par des droits d'auteur. Utilise-le uniquement à des fins personnelles.",
         "copyright_post": "⚠️ Ce contenu peut être protégé par des droits d'auteur. Utilise-le uniquement à des fins personnelles.",
         "copyright_command": "⚠️ Attention ! Tous les contenus téléchargés via ce bot peuvent être protégés par des droits d'auteur. Utilise-les uniquement à des fins personnelles."
@@ -785,7 +785,7 @@ async def handle_download(update_or_query, context: ContextTypes.DEFAULT_TYPE, u
             'postprocessors': [{
                 'key': 'FFmpegExtractAudio',
                 'preferredcodec': 'mp3',
-                'preferredquality': '320',
+                'preferredquality': '128',
             }],
             'verbose': True
         }
